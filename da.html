@@ -1,0 +1,82 @@
+<!DOCTYPE html lang="da">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="h-screen">
+    <header
+      class="bg-white flex flex-wrap justify-between gap-x-6 gap-y-3 md:pt-3 pt-6 pb-3 max-w-[1024px] max-w- mx-auto px-4"
+    >
+      <img src="assets/img/logo.svg" alt="" class="md:h-4" />
+      <nav class="flex gap-x-10 text-lg md:text-sm w-full md:w-auto">
+        <div class="flex gap-4">
+          <a class="cursor-pointer">Hjælp</a>
+          <a class="cursor-pointer">FAQ</a>
+          <a class="cursor-pointer">Om</a>
+        </div>
+        <a
+          class="cursor-pointer text-[#ff3434] font-bold tracking-wide md:ml-0 ml-auto"
+          >Forudbestilling</a
+        >
+      </nav>
+    </header>
+
+    <main class="max-w-[1024px] mx-auto text-white md:text-black">
+      <section class="relative pb-6 overflow-hidden">
+        <img
+          src="assets/img/bmw_doodle.png"
+          alt=""
+          class="animate-[slideInFromRight_1.2s_ease-in-out] h-full absolute -z-10 right-0 top-0 w-1/2 object-cover hidden md:block"
+        />
+        <img
+          src="assets/img/bmw-r80-bobber.jpg"
+          alt=""
+          class="h-[200%] absolute -z-10 inset-0 object-cover md:hidden brightness-[45%]"
+        />
+        <div
+          class="pt-16 md:pl-20 px-10 md:animate-[slideInFromLeft_1.5s_ease-in-out]"
+        >
+          <h1
+            class="md:mb-0 mb-16 text-5xl uppercase font-extrabold italic leading-[3.5rem] md:leading-[4.5rem] max-w-[550px]"
+          >
+            Det ultimative moderne batteri til enhver motorcykel
+          </h1>
+          <p class="max-w-[280px] mb-9 text-sm tracking-tight leading-tight">
+            Uanset om du korer en vintage, bygge din perfekte café racer eller
+            bare gore din daglige motorcykel som pälideligt som det kan væere.
+          </p>
+          <p class="text-sm">
+            Vi fik dig dakket fra
+            <span class="font-extrabold md:text-xs text-lg">€99</span>
+          </p>
+          <div class="flex gap-2">
+            <a
+              class="mt-auto cursor-pointer w-min text-lg md:text-sm uppercase font-extrabold bg-[#c43927] md:bg-[#ffe5e4] md:text-[#ff3434] rounded-full md:px-4 md:py-2 px-6 py-2.5 tracking-wider"
+            >
+              Forudbestilling
+            </a>
+            <img
+              src="assets/img/doodle_arrow.svg"
+              alt=""
+              class="origin-top-right w-20 mt-auto mb-1 animate-[wiggle_1.5s_ease-in-out_infinite]"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="mt-8 md:mt-24 px-6 md:pl-20">
+        <h2 class="text-[#969696] md:text-sm">Som set i</h2>
+        <div
+          class="flex md:flex-row flex-col gap-x-14 gap-y-6 ml-5 mt-8 md:mt-5 *:h-8 *:md:h-6 *:max-w-min"
+        >
+          <img src="assets/img/media_bikeexif.png" alt="Logo for Bike Exif" />
+          <img src="assets/img/media_pipeburn.png" alt="Logo for Pipeburn" />
+          <img src="assets/img/Greasy.png" alt="Logo for Greasy Kulture" />
+          <img src="assets/img/media_chopcult.png" alt="Logo for Chopcult" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

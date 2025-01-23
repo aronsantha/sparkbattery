@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Roag';
+    src: url('./assets/fonts/Roag-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roag';
+    src: url('./assets/fonts/Roag-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roag';
+    src: url('./assets/fonts/Roag-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  body {
+    font-family: 'Roag', sans-serif;
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%) translateY(-20%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%) translateY(20%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes wiggle {
+    0%, 100% {
+      transform: rotate(-10deg)
+    }
+    50% {
+      transform: rotate(0deg)
+
+    }
+  }
